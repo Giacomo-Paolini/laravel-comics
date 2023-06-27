@@ -12,7 +12,7 @@
 
 </head>
 
-<body class="">
+<body>
     <!--  Includo l'header del sito web con il menu tramite un partial -->
     @include('partials.header')
 

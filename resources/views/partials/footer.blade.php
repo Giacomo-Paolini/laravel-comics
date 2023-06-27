@@ -2,7 +2,7 @@
     <div class="container p-4">
         <div class="row">
             <div class="d-flex justify-content-evenly align-items-center mt-2 mb-2">
-                <div class="d-flex align-items-center">
+                <div>
                     <img class="image-fluid my-footer-img" src="{{ Vite::asset('resources/img/buy-comics-digital-comics.png') }}" alt="digital-comics">
                     <span>DIGITAL COMICS</span>
                 </div>
