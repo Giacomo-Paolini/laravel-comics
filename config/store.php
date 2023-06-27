@@ -1,19 +1,38 @@
 <?php
 
-return [
-    'someLinks' => [
-        [
-            "href" => "/",
-            "text" => "Home Page",
-        ],
-        [
-            "href" => "/otherpage",
-            "text" => "Other Page",
-        ],
-        [
-            "href" => "https://laravel.com/docs/9.x",
-            "text" => "Documentation",
+    return [
+        'navLinks' => [
+            [
+                "text" => "CHARACTERS",
+            ],
+            [
+                "text" => "COMICS",
+            ],
+            [
+                "text" => "MOVIES",
+            ],
+            [
+                "text" => "TV",
+            ],
+            [
+                "text" => "GAMES",
+            ],
+            [
+                "text" => "COLLECTIBLES",
+            ],
+            [
+                "text" => "VIDEOS",
+            ],
+            [
+                "text" => "FANS",
+            ],
+            [
+                "text" => "NEWS",
+            ],
+            [
+                "text" => "SHOP",
+            ]
         ]
-    ],
-    'someOtherData' => [ 42, 37, 73],
-];
+    ];
+
+?>

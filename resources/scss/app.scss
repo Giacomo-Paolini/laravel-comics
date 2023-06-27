@@ -1,28 +1,96 @@
 /* importo bootstrap dalla cartella node_modules usando l'alias settato in vite.config.js */
 @import "~bootstrap/scss/bootstrap";
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+header {
+    .links-header {
+        text-decoration: none;
+        color: black;
+    }
+    
+    .links-header:hover {
+        color: blue;
+    }
 }
 
-img {
-    max-width: 100%;
+.jumbotron-img {
+    background-image: url(/public/jumbotron.jpg);
+    background-size: cover;
+    height: 20rem;
+    object-position: 50% 50%;
 }
 
-body {
-    background-color: #222;
-    color: white;
+.my-content {
+    
+    p {
+        font-size: 0.8rem;
+    }
+    
+    .my-card {
+        width: calc(100% / 6);
+        margin-bottom: 2rem;
+    }
+    
+    img {
+        height: 150px;
+        width: 150px;
+        object-fit: cover;
+        object-position: top;
+    }
+    
+    .links-main {
+        text-decoration: none;
+        color: white;
+        text-transform: uppercase;
+    }
+    
+    button {
+        background-color: #0282F9;
+        color: white;
+        border: none;
+        padding: 0.5rem;
+        width: 15rem;
+    }
 }
 
-header,
-footer {
-    width: 100%;
-    background: #EEE;
-    color: black;
+.my-bg-image {
+    background-image: url(/public/footer-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-header img.logo {
-    height: 2rem;
+.my-footer {
+
+    .my-footer-img {
+        width: 3rem;
+    }
+
+    span {
+        font-size: 1rem;
+        color: white;
+        margin-left: 1rem;
+    }
+    
+    a {
+        text-decoration: none;
+        color: rgb(182, 182, 182);
+        font-size: small;
+    }
+    .logo {
+        width: 60%;
+    }
+
+    button {
+        color: white;
+        padding: 0.8rem;
+        background-color: transparent;
+        border-color: #0282F9;
+    }
+    .follow-us {
+        color: #0282F9;
+        font-size: 1rem;
+        font-weight: bold;
+    }
+}
+.my-bg-color {
+    background-color: #303030;
 }
